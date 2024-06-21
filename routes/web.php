@@ -3,10 +3,10 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/about', function () {
-    return view('About');
+    return view('About', ['title'=> 'About Us']);
 });
 Route::get('/', function () {
-    return view('home');
+    return view('home', ['title' => 'Home']);
 });
 Route::get('/layanan', function () {
     return view('layanan');
@@ -23,3 +23,7 @@ Route::get('/karir', function () {
 Route::get('/contact', function () {
     return view('Contact');
 });
+Route::get('/regulasi', function () {
+    return view('regulasi');
+});
+
