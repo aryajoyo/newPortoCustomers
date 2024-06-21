@@ -1,4 +1,5 @@
-<nav x-data="{ isOpen: false }"  class= " bg-gradient-to-r from-green-800 via-teal-700 to-green-800">
+<nav x-data="{ isOpen: false }"  class= " bg-gradient-to-r from-green-800 via-lime-5
+00 to-green-800">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="flex h-16 items-center justify-between">
         <div class="flex items-center">

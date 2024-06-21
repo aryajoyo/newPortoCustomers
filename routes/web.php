@@ -9,21 +9,21 @@ Route::get('/', function () {
     return view('home', ['title' => 'Home']);
 });
 Route::get('/layanan', function () {
-    return view('layanan');
+    return view('layanan', ['title' => 'Layanan']);
 });
 Route::get('/faq', function () {
-    return view('FAQ');
+    return view('FAQ',['title'=> 'FAQ']);
 });
 Route::get('/libary', function () {
-    return view('Libary');
+    return view('Libary',['title'=> 'Libary']);
 });
 Route::get('/karir', function () {
-    return view('Karir');
+    return view('Karir',['title'=> 'Karir']);
 });
 Route::get('/contact', function () {
-    return view('Contact');
+    return view('Contact',['title'=> 'Contact']);
 });
 Route::get('/regulasi', function () {
-    return view('regulasi');
+    return view('regulasi',['title'=> 'Regulasi']);
 });
 
