@@ -1,5 +1,4 @@
-<nav x-data="{ isOpen: false }"  class= " bg-gradient-to-r from-green-800 via-lime-5
-00 to-green-800">
+<nav x-data="{ isOpen: false }"  class= " bg-gradient-to-r from-lime-600 via-lime-800 to-lime-600">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="flex h-16 items-center justify-between">
         <div class="flex items-center">
@@ -11,13 +10,14 @@
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-              <a href="/" class=" {{request()->is('/') ? ' bg-gray-900  text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }} rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
-              <a href="/about" class="{{request()->is('about') ? ' bg-gray-900  text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }} rounded-md px-3 py-2 text-sm font-medium">About Us</a>
-              <a href="/faq" class="{{request()->is('faq') ? ' bg-gray-900  text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }} rounded-md px-3 py-2 text-sm font-medium">FAQ</a>
-              <a href="/layanan" class="{{request()->is('layanan') ? ' bg-gray-900  text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }} rounded-md px-3 py-2 text-sm font-medium">Layanan</a>
-              <a href="/regulasi" class="{{request()->is('regulasi') ? ' bg-gray-900  text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }} rounded-md px-3 py-2 text-sm font-medium">Regulasi</a>
-              <a href="/libary" class="{{request()->is('libary') ? ' bg-gray-900  text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }} rounded-md px-3 py-2 text-sm font-medium ">Libary</a>
-              <a href="/contact" class="bg-cyan-500 {{request()->is('contact') ? ' bg-gray-900  text-white' : 'text-black hover:bg-gray-700 hover:text-white' }} rounded-md px-3 py-2 text-sm font-medium">Contact Us</a>
+            <x-nav-link href="/" :active="request()->is('/')">Homes</x-nav-link>
+            <x-nav-link href="/about" :active="request()->is('about')">About</x-nav-link>
+            <x-nav-link href="/faq" :active="request()->is('faq')">FAQ</x-nav-link>
+            <x-nav-link href="/layanan" :active="request()->is('layanan')">Layanan</x-nav-link>
+            <x-nav-link href="/regulasi" :active="request()->is('regulasi')">Regulasi</x-nav-link>
+            <x-nav-link href="/libary" :active="request()->is('libary')">Libary</x-nav-link>
+            {{-- <x-nav-link href="/contact" :active="request()->is('contact')" class="bg-cyan-500" >Contact</x-nav-link> --}}
+            <a href="/contact" class="bg-cyan-500 {{request()->is('contact') ? ' bg-gray-900  text-white' : 'text-black hover:bg-gray-700 hover:text-white' }} rounded-md px-3 py-2 text-sm font-medium">Contact Us</a>
 
 
             </div>
@@ -50,13 +50,13 @@
     <div x-show="isOpen" class="md:hidden" id="mobile-menu">
       <div class="space-y-1 px-2 pb-3 pt-2 sm:px-3">
         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-        <a href="#" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white" aria-current="page">Home</a>
-        <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About Us</a>
-        <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">FAQ</a>
-        <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Layanan</a>
-        <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Libary</a>
-        <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Regulasi</a>
-        <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact Us</a>
+        <a href="/" class="{{request()->is('/') ? ' bg-gray-900  text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }} block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white" aria-current="page">Home</a>
+        <a href="/about" class="{{request()->is('about') ? ' bg-gray-900  text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }} block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About Us</a>
+        <a href="/faq" class="{{request()->is('faq') ? ' bg-gray-900  text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }} block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">FAQ</a>
+        <a href="/layanan" class="{{request()->is('layanan') ? ' bg-gray-900  text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }} block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Layanan</a>
+        <a href="/regulasi" class="{{request()->is('regulasi') ? ' bg-gray-900  text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }} block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Regulasi</a>
+        <a href="/libary" class="{{request()->is('libary') ? ' bg-gray-900  text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }} block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Libary</a>
+        <a href="/contact" class="{{request()->is('contact') ? ' bg-gray-900  text-white' : 'text-black hover:bg-gray-700 hover:text-white' }} block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact Us</a>
 
 
       </div>
