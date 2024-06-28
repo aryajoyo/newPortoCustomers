@@ -30,3 +30,10 @@ Route::get('/regulasi', function () {
 Route::get('/admin', function () {
     return view('admin.admin-home');
 });
+
+Route::get('/admin/faq', function () {
+    return view('admin.admin-faq');
+});
+Route::get('/admin/faq/insert', function () {
+    return view('admin.admin-faq-insert');
+});
