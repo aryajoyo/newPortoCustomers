@@ -8,7 +8,7 @@
     @vite('resources/css/app.css')
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-
+    <script>document.documentElement.classList.add('js')</script>
     {{-- ini buat Animasi dari Css dan JS --}}
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <script src="js/animation.js"></script>
@@ -122,6 +122,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
 </body>
 
 </html>

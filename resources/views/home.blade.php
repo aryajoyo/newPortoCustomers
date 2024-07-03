@@ -114,7 +114,7 @@
         <hr class="">
 
         {{-- Client --}}
-        <div class="">
+        <div class="delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0" data-taos-offset="300">
             <h2 class="text-center  mb-2  leading-8 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl">Our Clients
             </h2>
             <p class="text-center text-lg font-extralight leading-8 pb-8">We are trusted by the world’s most innovative
@@ -163,7 +163,7 @@
         <hr class="pt-8">
 
         {{-- Nilai Usung --}}
-        <div class="">
+        <div class="delay-[300ms] duration-[600ms] taos:scale-[0.6] taos:opacity-0" data-taos-offset="400">
             <h2 class="text-center  mb-2  leading-8 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl ">Nilai Yang
                 Kami Usung</h2>
             <div class=" flex justify-center items-center py-16">
