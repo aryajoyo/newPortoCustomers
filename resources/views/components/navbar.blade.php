@@ -3,14 +3,16 @@
       <div class="flex h-16 items-center justify-between">
         <div class="flex items-center">
           <div class="flex-shrink-0">
-            <img class="h-12 w-12" src="img/logoPT.png" alt="logo" >
-          </div>
+  <a href="/">
+    <img class="h-12 w-12" src="img/logoPT.png" alt="logo">
+  </a>
+</div>
         </div>
         <div class="flex-1 flex justify-center">
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-            <x-nav-link href="/" :active="request()->is('/')">Homes</x-nav-link>
+            <x-nav-link href="/" :active="request()->is('/')">Homessss</x-nav-link>
             <x-nav-link href="/about" :active="request()->is('about')">About</x-nav-link>
             <x-nav-link href="/faq" :active="request()->is('faq')">FAQ</x-nav-link>
             <x-nav-link href="/layanan" :active="request()->is('layanan')">Layanan</x-nav-link>
