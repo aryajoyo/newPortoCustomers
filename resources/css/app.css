@@ -17,3 +17,16 @@
     .animation-pause {
       animation-play-state: paused;
     }}
+    .teras {
+        /* Background image */
+        background-image: url('../../public/img/natureq.png');
+        background-size: cover;
+        background-position: top;
+    }
+
+.teras2 {
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+    
