@@ -5,16 +5,14 @@
 
         {{-- Utama --}}
         
-        <div class=" teras px-36 bg-green-800 gap-8 items-center pt-0 mx-auto lg:grid lg:grid-cols-4 lg:py-2 ">
-            <div class="font-light text-white sm:text-lg ">
-                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white ">CV. MAKMUR KREASI
-                    BERKAH UTAMA</h2>
-                <p class="mb-4">Kami
-                    perusahaan yang bergerak di bidang konsultan
-                    lingkungan hidup. Perusahaan kami telah
-                    melakukan kerja sama dengan berbagai
-                    perusahaan baik badan usaha milik negara,
-                    daerah dan swasta.</p>
+        <div class=" teras px-36 bg-green-800  ">
+        <div class="font-light text-white sm:text-lg max-w-3xl mx-auto text-center">
+            
+    <h2 class="text-4xl tracking-tight font-extrabold text-white mt-20">CV. MAKMUR KREASI BERKAH UTAMA</h2>
+    <p class="mb-4">Kami perusahaan yang bergerak di bidang konsultan lingkungan hidup. Perusahaan kami telah melakukan kerja sama dengan berbagai perusahaan baik badan usaha milik negara, daerah dan swasta.</p>
+</div>
+
+
 
             </div>
             

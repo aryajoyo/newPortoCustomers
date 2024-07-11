@@ -1,4 +1,5 @@
 <header class="relative bg-cover bg-center bg-no-repeat h-auto">
+  
   <nav x-data="{ isOpen: false, isScrolled: false }" id="navbar" class="fixed w-full z-10 py-4 transition duration-300"
        :class="{ 'bg-green-800': isScrolled, 'bg-transparent': !isScrolled }"
        @scroll.window="isScrolled = window.pageYOffset > 0">
@@ -8,15 +9,18 @@
           <div class="flex-shrink-0">
             <a href="/">
               <!-- Smaller logo for smaller screens (hidden on lg screens and up) -->
-              <img class="block lg:hidden h-8 w-auto transition duration-300"
-                   :class="{ 'h-8': !isScrolled, 'h-12': isScrolled }"
-                   src="img/logoPT.png"
-                   alt="mkbu">
-              <!-- Larger logo for larger screens (hidden on smaller screens) -->
-              <img class="hidden lg:block h-8 w-auto transition duration-300"
-                   :class="{ 'h-1': !isScrolled, 'h-20': isScrolled }"
-                   src="img/logoPT.png"
-                   alt="mkbu">
+<img class="block lg:hidden h-20 w-auto transition duration-300"
+     :class="{ 'h-8': !isScrolled, 'h-12': isScrolled }"
+     src="img/logoPT.png"
+     alt="mkbu">
+
+<!-- Larger logo for larger screens (hidden on smaller screens) -->
+<img class="hidden lg:block h-20 w-auto transition duration-300"
+     :class="{ 'h-15': !isScrolled, '20': isScrolled }"
+     src="img/logoPT.png"
+     alt="mkbu">
+
+
             </a>
           </div>
         </div>
