@@ -3,7 +3,7 @@
     <x-slot:title>{{ $title }}</x-slot:title>
     <section class="flex flex-col space-y-5">
 
-        {{-- Utama --}}
+        {{-- Utama sasd--}}
         <div class="bg-green-800">
             <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
                 <div class="font-light text-white-500 sm:text-lg ">
