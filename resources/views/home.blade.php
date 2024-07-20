@@ -257,8 +257,149 @@
         </div>
         {{--  --}}
 <hr>
+
+{{-- Image --}}
+        <div>
+            <div class=" mx-auto px-5 pb-11 lg:px-32 lg:pt-0">
+                <h2
+                    class="text-center  mb-2 leading-8 font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl text-green-800 py-8">
+                    Libary</h2>
+                <div class="-m-1 flex flex-wrap md:-m-2">
+                    <div class="flex w-1/2 flex-wrap">
+                        <div class="w-1/2 p-1 md:p-2">
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp" />
+                        </div>
+                        <div class="w-1/2 p-1 md:p-2">
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp" />
+                        </div>
+                        <div class="w-full p-1 md:p-2">
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" />
+                        </div>
+                    </div>
+                    <div class="flex w-1/2 flex-wrap">
+                        <div class="w-full p-1 md:p-2">
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp" />
+                        </div>
+                        <div class="w-1/2 p-1 md:p-2">
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp" />
+                        </div>
+                        <div class="w-1/2 p-1 md:p-2">
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(77).webp" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        {{-- faq --}}
+        <div class="bg-green-800">
+            <div class="containerr flex flex-col justify-center p-4 mx-auto md:p-8">
+                <h2 class="mb-12 text-4xl font-bold leadi text-center sm:text-5xl text-white">Frequently Asked
+                    Questions</h2>
+                <div class="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-white text-white">
+                    <details>
+                        <summary class="py-2 outline-none cursor-pointer focus:underline">How can I place an order?
+                        </summary>
+                        <div class="px-4 pb-4">
+                            <p>You can easily place an order on our website by browsing our product catalog, selecting
+                                the
+                                items you want, and adding them to your cart. Then, proceed to checkout, where you can
+                                provide your shipping and payment information to complete the order.</p>
+                        </div>
+                    </details>
+                    <details>
+                        <summary class="py-2 outline-none cursor-pointer focus:underline">What payment methods do you
+                            accept?</summary>
+                        <div class="px-4 pb-4">
+                            <p>We accept various payment methods, including credit cards, debit cards, net banking, and
+                                mobile wallet payments. You can choose the payment option that is most convenient for
+                                you
+                                during the checkout process.</p>
+                        </div>
+                    </details>
+                    <details>
+                        <summary class="py-2 outline-none cursor-pointer focus:underline">How long does shipping take?
+                        </summary>
+                        <div class="px-4 pb-4">
+                            <p>Shipping times may vary depending on your location and the shipping method chosen.
+                                Typically,
+                                orders are processed within 1-2 business days, and delivery can take 3-7 business days
+                                within India. You will receive a tracking notification once your order is shipped.</p>
+                        </div>
+                    </details>
+                    <details>
+                        <summary class="py-2 outline-none cursor-pointer focus:underline">Can I return a product if I'm
+                            not
+                            satisfied?</summary>
+                        <div class="px-4 pb-4">
+                            <p>Yes, we have a hassle-free return policy. If you are not satisfied with your purchase,
+                                you
+                                can initiate a return within 30 days of receiving the product. Please contact our
+                                customer
+                                support at <a href="" class="underline">example@gmail.com</a> for assistance.
+                            </p>
+                        </div>
+                    </details>
+                    <details>
+                        <summary class="py-2 outline-none cursor-pointer focus:underline">Do you offer international
+                            shipping?</summary>
+                        <div class="px-4 pb-4">
+                            <p>Currently, we only provide shipping services within India. However, we may consider
+                                expanding
+                                our shipping options to international locations in the future. Please stay updated with
+                                our
+                                website for any changes in shipping destinations.</p>
+                        </div>
+                    </details>
+                    <details>
+                        <summary class="py-2 outline-none cursor-pointer focus:underline">What is your customer support
+                            contact?</summary>
+                        <div class="px-4 pb-4">
+                            <p>If you have any questions, concerns, or need assistance, you can reach our customer
+                                support
+                                team at 9911083755 during our business hours, Monday to Saturday from 10 am to 6 pm. You
+                                can
+                                also contact us via email at <a href=""
+                                    class="underline">example@gmail.com</a>.
+                            </p>
+                        </div>
+                    </details>
+                    <details>
+                        <summary class="py-2 outline-none cursor-pointer focus:underline">What are your terms and
+                            conditions?</summary>
+                        <div class="px-4 pb-4">
+                            <p>You can find our detailed terms and conditions by visiting our
+                                <a href="" class="underline">Terms of Service</a>
+                                page on our website. It includes information about our policies, user guidelines, and
+                                more.
+                            </p>
+                        </div>
+                    </details>
+                </div>
+                <div class="text-center px-0 py-8">
+                    <p class=" underline text-cyan-500 hover:text-cyan-700 text-sm "> <a href="/faq">Read
+                            more.</a>
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        {{--  --}}
+
+
+        <hr>
         {{-- contac an loc --}}
-        <div class="container my-12 mx-auto px-2 md:px-4">
+        <div class="containerr my-12 mx-auto px-2 md:px-4">
 
             <section class="mb-32">
 
@@ -275,7 +416,7 @@
                     <form class="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6">
 
                         <div class="mb-3 w-full">
-                            <label class="block font-medium mb-[2px] text-teal-700" htmlFor="exampleInput90">
+                            <label class="block font-medium mb-[2px] text-green-800" htmlFor="exampleInput90">
                                 Name
                             </label>
                             <input type="text" class="px-2 py-2 border w-full outline-none rounded-md"
@@ -298,13 +439,14 @@
                         </div>
 
                         <button type="button"
-                            class="mb-6 inline-block w-full rounded bg-teal-400 px-6 py-2.5 font-medium uppercase leading-normal text-white hover:shadow-md hover:bg-teal-500">
+                            class="mb-6 inline-block w-full rounded bg-green-800 px-6 py-2.5 font-medium uppercase leading-normal text-white hover:shadow-md hover:bg-green-500">
                             Send
                         </button>
 
                     </form>
-
-                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
+                    </form>
+                    
+                        <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
                         <div class="flex flex-wrap">
                             <div class="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-6">
                                 <div class="flex items-start">
@@ -411,6 +553,7 @@
             </section>
         </div>
 
+        {{--  --}}
     </section>
 
 </x-layout>
