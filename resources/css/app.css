@@ -118,6 +118,7 @@
     padding: 20px 30px;
     position: relative;
     border-radius: 6px;
+    background-color: white;
   }
 * {
   box-sizing: border-box;
@@ -150,7 +151,10 @@
   position: relative;
   background-color: inherit;
   width: 50%;
-  transition: transform 0.5s ease;
+  opacity: 0;
+}
+.container.animated {
+  animation: slideIn 1s forwards;
 }
 
 /* The circles on the timeline */
@@ -179,11 +183,7 @@
 .right {
   left: 50%;
 }
-/* Animasi untuk muncul */
-.container.left, .container.right {
-    animation-name: slideIn;
-    animation-duration: 1s;
-  }
+
 
 /* Add arrows to the left container (pointing right) */
 .left::before {
@@ -198,5 +198,18 @@
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent white;
 }
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px); /* Geser elemen ke bawah */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Kembalikan elemen ke posisi awal */
+  }
+}
+
+
+
 
     

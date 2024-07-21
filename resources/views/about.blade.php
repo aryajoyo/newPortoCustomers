@@ -17,20 +17,23 @@
         {{-- VIsi --}}
         <div class="px-4 sm:px-8 md:px-36">
     <div class="text-center pb-4 pt-4 px-4 delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0" data-taos-offset="300">
-        
+    <h2
+                        class="text-center mb-2 leading-8 font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl text-black">
+                        Dokumentasi MKBU
+                    </h2>
 
-        <div class="flex flex-wrap mt-36">
+        
             <!-- Kolom VISI -->
             <div class="flex flex-wrap mt-10">
     <!-- Kolom VISI -->
-    <div class="w-full md:w-1/2 px-4">
-        <div class="bg-green-800 px-1 py-1 sm:px-1 sm:py-1 flex justify-center items-center">
+    <div class="w-full md:w-1/2 px-4 rounded-lg">
+        <div class="bg-green-800 px-1 py-1 sm:px-1 sm:py-1 flex justify-center items-center rounded-lg">
             <img src="img/konsul1.jpeg" alt="gambar" class="w-full lg:w-auto rounded-lg mt-1">
         </div>
     </div>
     <div class="w-full md:w-1/2 px-4 text-center md:text-left">
         <h2 class="font-bold mt-4 text-lg sm:mt-0 sm:text-xl">
-            VISI
+            PT. Waskita
         </h2>
         <div class="flex items-center text-base sm:text-lg mt-4">
     <span class="bullet">&#x2022;</span>
@@ -45,14 +48,14 @@
     <!-- Kolom MISI -->
     <div class="flex flex-wrap mt-10">
     <!-- Kolom MISI -->
-    <div class="w-full md:w-1/2 px-4">
-        <div class="bg-green-800 px-1 py-1 sm:px-1 sm:py-1 flex justify-center items-center">
+    <div class="w-full md:w-1/2 px-4 rounded-lg">
+        <div class="bg-green-800 px-1 py-1 sm:px-1 sm:py-1 flex justify-center items-center rounded-lg">
             <img src="img/konsul1.jpeg" alt="gambar" class="w-full lg:w-auto rounded-lg mt-1">
         </div>
     </div>
     <div class="w-full md:w-1/2 px-4 text-center md:text-left text-center">
         <h2 class="font-bold mt-4 text-lg sm:mt-0 sm:text-xl">
-            MISI
+            PT. Cimory
         </h2>
         <div class="flex items-center text-base sm:text-lg mt-4">
     <span class="bullet">&#x2022;</span>
@@ -66,6 +69,7 @@
         </p>
     </div>
             </div>
+    </div>
         </div>
 
         
@@ -121,7 +125,11 @@
     <div class="content">
       <h2>2007</h2>
       <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-    
+    </div>
+  </div>
+                    </div>
+                    
+                    
 
         {{--  --}}
 
