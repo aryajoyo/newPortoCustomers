@@ -21,8 +21,8 @@
 
         <!-- Preloader -->
         <div class="preloader flex-column justify-content-center align-items-center">
-            <img class="animation__wobble" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60"
-                width="60">
+            <img class="animation__wobble" src="{{ Vite::asset('resources/img/logoPT.png') }}" alt="LogoPT"
+                height="60" width="60">
         </div>
 
         <!-- Navbar -->
@@ -130,13 +130,13 @@
                             </a>
                             <ul class="nav nav-treeview ml-3">
                                 <li class="nav-item">
-                                    <a href="/admin/faq" class="nav-link active">
+                                    <a href="{{ route('admin.faqs.index') }}" class="nav-link active">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Data</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="/admin/faq/insert" class="nav-link">
+                                    <a href="{{ route('admin.faqs.create') }}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Insert Data</p>
                                     </a>
@@ -154,13 +154,13 @@
                             </a>
                             <ul class="nav nav-treeview ml-3">
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link active">
+                                    <a href="{{ route('admin.libraries.index') }}" class="nav-link active">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Data</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="./index2.html" class="nav-link">
+                                    <a href="{{ route('admin.libraries.create') }}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Insert Data</p>
                                     </a>
@@ -193,7 +193,7 @@
                         </li>
                         {{-- Menu 5 --}}
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="" class="nav-link">
                                 <i class="nav-icon fas fa-copy"></i>
                                 <p>
                                     Layanan
@@ -202,13 +202,13 @@
                             </a>
                             <ul class="nav nav-treeview ml-3">
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link active">
+                                    <a href="{{ route('admin.services.index') }}" class="nav-link active">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Data</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="./index2.html" class="nav-link">
+                                    <a href="{{ route('admin.services.create') }}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Insert Data</p>
                                     </a>

@@ -11,7 +11,7 @@
                     <div class="col-sm-6">
                         <ol class="breadcrumb float-sm-right">
                             <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item active">FAQ Insert</li>
+                            <li class="breadcrumb-item active">FAQ Edit</li>
                         </ol>
                     </div>
                 </div>
@@ -27,17 +27,21 @@
                         <!-- general form elements disabled -->
                         <div class="card card-info">
                             <div class="card-header">
-                                <h3 class="card-title">Insert Data FAQ</h3>
+                                <h3 class="card-title">Edit Data FAQ</h3>
                             </div>
                             <!-- /.card-header -->
                             <div class="card-body">
-                                <form>
+                                <form method="POST" action="{{ route('admin.faqs.update', $faq) }}"
+                                    enctype="multipart/form-data">
+                                    @csrf
+                                    @method('put')
                                     <div class="row">
                                         <div class="col-sm-12">
                                             <!-- text input -->
                                             <div class="form-group">
                                                 <label>Question</label>
-                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                                <input type="text" class="form-control" placeholder="Enter ..."
+                                                    value="{{ $faq->question }}" name="question">
                                             </div>
                                         </div>
                                     </div>
@@ -46,7 +50,7 @@
                                             <!-- textarea -->
                                             <div class="form-group">
                                                 <label>Answer</label>
-                                                <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>
+                                                <textarea class="form-control" rows="3" placeholder="Enter ..." name="answer">{{ $faq->answer }}</textarea>
                                             </div>
                                         </div>
                                     </div>
@@ -72,7 +76,7 @@
                                                 <div class="modal-footer justify-content-between">
                                                     <button type="button" class="btn btn-default"
                                                         data-dismiss="modal">Close</button>
-                                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                                    <button type="submit" class="btn btn-primary">Save changes</button>
                                                 </div>
                                             </div>
                                             <!-- /.modal-content -->
