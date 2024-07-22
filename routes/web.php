@@ -15,7 +15,9 @@ Route::get('/faq', function () {
     return view('FAQ',['title'=> 'FAQ']);
 });
 Route::get('/libary', function () {
-    return view('Libary',['title'=> 'Libary']);
+    return view('Libary',['title'=> 'Libary', 'posts' =>[
+        
+    ]]);
 });
 Route::get('/karir', function () {
     return view('Karir',['title'=> 'Karir']);

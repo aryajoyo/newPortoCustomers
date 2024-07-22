@@ -22,55 +22,51 @@
         <hr>
 
         {{-- VIsi --}}
-        <div class=" px-36 ">
-            <div class="text-center pb-4 pt-4 px-4">
-                <h2 class="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+        <div class="px-4 sm:px-8 md:px-36">
+            <div class="text-center pb-4 pt-4 px-4 delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0"
+                data-taos-offset="300">
+                <h2 class="font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl">
                     VISI dan MISI
                 </h2>
 
-                <div class="flex flex-wrap items-center mt-20 text-left ">
+                <div class="flex flex-wrap items-center mt-10 text-left">
                     <div class="w-full md:w-3/5 lg:w-1/2 px-4">
-                        <img src="https://picsum.photos/400/240" alt="gem"
-                            class="outline-block  shadow-lg border border-merino-400  bg-green-800 px-8 py-8 ">
+                        <div class="bg-green-800 px-16 py-8 sm:px-32 sm:py-16 flex justify-center items-center">
+                            <img src="img/visi.png" alt="gem" class="w-16 h-16 sm:w-32 sm:h-32">
+                        </div>
                     </div>
-                    <div class="w-full md:w-2/5 lg:w-1/2 px-4 text-center md:text-left lg:pl-12">
-                        <h3 class="font-bold mt-8 text-xl md:mt-0 sm:text-2xl">
-                            VISI
-                        </h3>
-                        <p class="sm:text-lg mt-6">
-                            Menjadi konsultan lingkungan yang profesional dan
-                            memiliki integritas dalam memberikan pelayanan
-                            kepada pelanggan dengan mengedepankan
-                            metode ilmiah, praktis dan tepat guna.
 
+                    <div class="w-full md:w-2/5 lg:w-1/2 px-4 text-center md:text-left lg:pl-12">
+                        <h2 class="font-bold mt-4 text-lg sm:mt-0 sm:text-xl">
+                            VISI
+                        </h2>
+                        <p class="text-base sm:text-lg mt-4 sm:mt-6">
+                            Menjadi konsultan lingkungan yang profesional dan memiliki integritas dalam memberikan
+                            pelayanan kepada pelanggan dengan mengedepankan metode ilmiah, praktis dan tepat guna.
                         </p>
                     </div>
                 </div>
 
-                <div class="flex flex-wrap items-center mt-20 text-left ">
+                <div class="flex flex-wrap items-center mt-10 text-left">
                     <div class="w-full md:w-3/5 lg:w-1/2 px-4">
-                        <img src="https://picsum.photos/400/240" alt="project members"
-                            class="inline-block rounded shadow-lg border border-merino-400  bg-green-800 px-8 py-8 ">
+                        <div class="bg-green-800 px-16 py-8 sm:px-32 sm:py-16 flex justify-center items-center">
+                            <img src="img/misi.png" alt="gem" class="w-16 h-16 sm:w-32 sm:h-32">
+                        </div>
                     </div>
                     <div class="w-full md:w-2/5 lg:w-1/2 px-4 md:order-first text-center md:text-left lg:pr-12">
-                        <h3 class="font-bold mt-8 text-xl md:mt-0 sm:text-2xl">
+                        <h2 class="font-bold mt-4 text-lg sm:mt-0 sm:text-xl">
                             MISI
-                        </h3>
-                        <p class="sm:text-lg mt-6">
-                            Memberikan pelayanan terbaik dengan
-                            menyediakan tim yang profesional dan kompeten
-                            untuk dapat memberikan solusi yang tepat, inovatif
-                            dan praktis menyesuaikan dengan wawasan terkini
-                            sehingga dapat memberikan nilai positif bagi
-                            pelanggan.
-
+                        </h2>
+                        <p class="text-base sm:text-lg mt-4 sm:mt-6">
+                            Memberikan pelayanan terbaik dengan menyediakan tim yang profesional dan kompeten untuk
+                            dapat memberikan solusi yang tepat, inovatif dan praktis menyesuaikan dengan wawasan terkini
+                            sehingga dapat memberikan nilai positif bagi pelanggan.
                         </p>
                     </div>
                 </div>
-
-
             </div>
         </div>
+
         {{--  --}}
         <hr>
 
@@ -106,7 +102,7 @@
         <hr class="">
 
         {{-- Client --}}
-        <div class="">
+        <div class="delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0" data-taos-offset="300">
             <h2 class="text-center  mb-2  leading-8 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl">Our Clients
             </h2>
             <p class="text-center text-lg font-extralight leading-8 pb-8">We are trusted by the world’s most innovative
@@ -155,106 +151,118 @@
         <hr class="pt-8">
 
         {{-- Nilai Usung --}}
-        <div class="">
-            <h2 class="text-center  mb-2  leading-8 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl ">Nilai Yang
-                Kami Usung</h2>
-            <div class=" flex justify-center items-center py-16">
-                <div class="flex space-x-32">
+        <div class="delay-[300ms] duration-[600ms] taos:scale-[0.6] taos:opacity-0" data-taos-offset="400">
+            <h2 class="text-center mb-2 leading-8 font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl">Nilai Yang
+                Kami
+                Usung</h2>
+            <div class="flex justify-center items-center py-8 sm:py-16">
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-8 md:space-x-16 lg:space-x-32">
                     <div class="bg-green-800 flex justify-center rounded-2xl items-center h-16 w-48">
-                        <h2 class="text-white text-center text-xl">INOVATIF</h2>
+                        <h2 class="text-white text-center text-lg sm:text-xl">INOVATIF</h2>
                     </div>
                     <div class="bg-green-800 flex justify-center rounded-2xl items-center h-16 w-48">
-                        <h2 class="text-white text-center text-xl">TEPAT GUNA</h2>
+                        <h2 class="text-white text-center text-lg sm:text-xl">TEPAT GUNA</h2>
                     </div>
                     <div class="bg-green-800 flex justify-center rounded-2xl items-center h-16 w-48">
-                        <h2 class="text-white text-center text-xl">BERKELANJUTAN</h2>
+                        <h2 class="text-white text-center text-lg sm:text-xl">BERKELANJUTAN</h2>
                     </div>
                 </div>
             </div>
-
         </div>
+
         {{--  --}}
 
         <hr>
 
         {{-- Layanan --}}
-        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-            <div class="text-center  mb-2  leading-8  text-2xl sm:text-3xl md:text-4xl lg:text-5xl ">
-                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-black">Layanan Kami</h2>
-                <p class="text-black sm:text-xl dark:text-black">Selamat datang di Layanan Kami, di mana kami
-                    menyediakan beragam pilihan layanan untuk memenuhi kebutuhan Anda..</p>
+        <div>
+            <div class="bg-green-800 py-8">
+                <div class="text-center   leading-8  text-2xl sm:text-3xl md:text-4xl lg:text-5xl  ">
+                    <h2
+                        class="text-center mb-2 leading-8 font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl text-white">
+                        Layanan Kami
+                    </h2>
+                    <p class="text-white text-center text-lg font-extralight leading-8 pb-1">Selamat datang di Layanan
+                        Kami, di mana kami
+                        menyediakan beragam pilihan layanan untuk memenuhi kebutuhan Anda..</p>
+                </div>
             </div>
-            <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+            <div class="py-1 px-4 mx-auto max-w-screen-xl ">
 
-                <div>
-                    <div
-                        class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
+                <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
 
+                    <div>
+                        <div
+                            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
+
+                        </div>
+                        <h3 class="mb-2 text-xl font-bold text-green-800">Konsultasi</h3>
+                        <p class="text-black dark:text-black">Konsultasi terkait Pengelolaan Lingkungan.</p>
                     </div>
-                    <h3 class="mb-2 text-xl font-bold text-green-800">Konsultasi</h3>
-                    <p class="text-black dark:text-black">Konsultasi terkait Pengelolaan Lingkungan.</p>
-                </div>
 
-                <div>
-                    <div
-                        class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
+                    <div>
+                        <div
+                            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
 
+                        </div>
+                        <h3 class="mb-2 text-xl font-bold text-green-800">Pelatihan</h3>
+                        <p class="text-black dark:text-black">Pelatihan Sertifikasi Profesi Lingkungan Hidup</p>
                     </div>
-                    <h3 class="mb-2 text-xl font-bold text-green-800">Pelatihan</h3>
-                    <p class="text-black dark:text-black">Pelatihan Sertifikasi Profesi Lingkungan Hidup</p>
-                </div>
 
-                <div>
-                    <div
-                        class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
+                    <div>
+                        <div
+                            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
 
+                        </div>
+                        <h3 class="mb-2 text-xl font-bold text-green-800">Pengurusan Izin</h3>
+                        <p class="text-black dark:text-black">Pengurusan Izin Perusahaan ( TDG, IUI, SIUP IMB, MOU
+                            Limbah B3, SKRK, PBG, dll )
+                            .</p>
                     </div>
-                    <h3 class="mb-2 text-xl font-bold text-green-800">Pengurusan Izin</h3>
-                    <p class="text-black dark:text-black">Pengurusan Izin Perusahaan ( TDG, IUI, SIUP IMB, MOU
-                        Limbah B3, SKRK, PBG, dll )
-                        .</p>
-                </div>
 
-                <div>
-                    <div
-                        class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
+                    <div>
+                        <div
+                            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
 
+                        </div>
+                        <h3 class="mb-2 text-xl font-bold text-green-800">Pengurusan</h3>
+                        <p class="text-black dark:text-black">Pengurusan SLO Air Limbah, Emisi, Listrik, Genset dan
+                            Penangkal Petir</p>
                     </div>
-                    <h3 class="mb-2 text-xl font-bold text-green-800">Pengurusan</h3>
-                    <p class="text-black dark:text-black">Pengurusan SLO Air Limbah, Emisi, Listrik, Genset dan
-                        Penangkal Petir</p>
-                </div>
 
-                <div>
-                    <div
-                        class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
+                    <div>
+                        <div
+                            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
 
+                        </div>
+                        <h3 class="mb-2 text-xl font-bold text-green-800">Pengujian</h3>
+                        <p class="text-black dark:text-black">Jasa Pengujian Air Limbah dan Emisi</p>
                     </div>
-                    <h3 class="mb-2 text-xl font-bold text-green-800">Pengujian</h3>
-                    <p class="text-black dark:text-black">Jasa Pengujian Air Limbah dan Emisi</p>
-                </div>
 
-                <div>
-                    <div
-                        class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
+                    <div>
+                        <div
+                            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
 
+                        </div>
+                        <h3 class="mb-2 text-xl font-bold text-green-800">Dokumen</h3>
+                        <p class="text-black dark:text-black">Pembuatan Dokumen UKL - UPL</p>
                     </div>
-                    <h3 class="mb-2 text-xl font-bold text-green-800">Dokumen</h3>
-                    <p class="text-black dark:text-black">Pembuatan Dokumen UKL - UPL</p>
+
+
+
+
+
+
                 </div>
-
-
-
-
-
+                <div class="text-center px-8 py-8">
+                    <p class=" underline text-cyan-500 hover:text-cyan-700 text-sm "> <a href="/layanan">Read
+                            more.</a>
+                    </p>
+                </div>
 
             </div>
-            <div class="text-center px-8 py-8">
-                <p class=" underline text-cyan-500 hover:text-cyan-700 text-xl "> <a href="/layanan">Read more.</a>
-                </p>
-            </div>
-
         </div>
+
         {{--  --}}
 <hr>
 
@@ -422,20 +430,13 @@
                             <input type="text" class="px-2 py-2 border w-full outline-none rounded-md"
                                 id="exampleInput90" placeholder="Name" />
                         </div>
-
-                        <div class="mb-3 w-full">
-                            <label class="block font-medium mb-[2px] text-teal-700" htmlFor="exampleInput90">
-                                Email
-                            </label>
-                            <input type="email" class="px-2 py-2 border w-full outline-none rounded-md"
-                                id="exampleInput90" placeholder="Enter your email address" />
+                        <div class="w-1/2 p-1 md:p-2">
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp" />
                         </div>
-
-                        <div class="mb-3 w-full">
-                            <label class="block font-medium mb-[2px] text-teal-700" htmlFor="exampleInput90">
-                                Message
-                            </label>
-                            <textarea class="px-2 py-2 border rounded-[5px] w-full outline-none" name="" id=""></textarea>
+                        <div class="w-1/2 p-1 md:p-2">
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(77).webp" />
                         </div>
 
                         <button type="button"
@@ -549,9 +550,32 @@
                         </div>
                     </div>
 
+
+        {{--  --}}
+
+
+        <hr>
+        {{-- contac an loc --}}
+        <div class="container my-12 mx-auto px-2 md:px-4">
+            <div class="py-36 ">
+                <div class="text-6xl font-bold my-8">
+                    <h1>Untuk Lebih lanjut</h1>
+                    <h1>Hubungin Kami!</h1>
                 </div>
-            </section>
+
+
+                <a class="mt-8 inline-flex items-center justify-center rounded-xl bg-green-600 py-3 px-16 font-dm text-2xl font-bold text-white shadow-xl shadow-green-400/75 transition-transform duration-200 ease-in-out hover:scale-[1.02]"
+                href="/contact">
+                CONTACT
+            </a>
+            </div>
+
         </div>
+
+        {{--  --}}
+
+
+
 
         {{--  --}}
     </section>

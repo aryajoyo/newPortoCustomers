@@ -16,13 +16,13 @@
 
         {{-- VIsi --}}
         <div class="px-4 sm:px-8 md:px-36">
-    <div class="text-center pb-4 pt-4 px-4 delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0" data-taos-offset="300">
+    <div class="text-center pb-4 pt-4 px-4 delay-[300ms] duration-[1000ms] taos:translate-y-[200px] taos:opacity-0" data-taos-offset="300">
     <h2
                         class="text-center mb-2 leading-8 font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl text-black">
                         Dokumentasi MKBU
                     </h2>
-
-        
+    </div>
+    <div class="text-center pb-4 pt-4 px-4 delay-[300ms] duration-[1000ms] taos:translate-y-[200px] taos:opacity-0" data-taos-offset="300">
             <!-- Kolom VISI -->
             <div class="flex flex-wrap mt-10">
     <!-- Kolom VISI -->
@@ -41,10 +41,12 @@
         Menjadi konsultan lingkungan yang profesional dan memiliki integritas dalam memberikan pelayanan kepada pelanggan dengan mengedepankan metode ilmiah, praktis dan tepat guna.
     </p>
 </div>
-
     </div>
             </div>
-        </div>
+
+    </div>
+            
+    <div class="text-center pb-4 pt-4 px-4 delay-[300ms] duration-[1000ms] taos:translate-y-[200px] taos:opacity-0" data-taos-offset="300">
     <!-- Kolom MISI -->
     <div class="flex flex-wrap mt-10">
     <!-- Kolom MISI -->
@@ -69,6 +71,8 @@
         </p>
     </div>
             </div>
+    </div>
+        </div>
     </div>
         </div>
 
