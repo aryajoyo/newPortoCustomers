@@ -6,7 +6,9 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RegulationController;
 use App\Http\Controllers\ServiceController;
 use App\Models\Library;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\DB;
 
 Route::get('/', function () {
     return view('home', ['title' => 'Home']);
@@ -52,6 +54,11 @@ Route::get('/admin/faq/insert', function () {
 Route::get('/dashboard', function () {
     return view('admin.dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::post('/logout', function() {
+    Auth::logout();
+    return redirect('/');
+})->name('logout');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
