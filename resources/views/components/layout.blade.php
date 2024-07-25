@@ -8,7 +8,7 @@
     @vite('resources/css/app.css')
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-
+    <script>document.documentElement.classList.add('js')</script>
     {{-- ini buat Animasi dari Css dan JS --}}
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <script src="js/animation.js"></script>
@@ -55,7 +55,7 @@
 
     </main>
     <footer
-        class="bg-white shadow sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 dark:bg-gray-800 antialiased">
+        class="bg-white shadow sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 dark:bg-green-800 antialiased">
         <p class="mb-4 text-sm text-center text-gray-500 dark:text-gray-400 sm:mb-0">
             &copy; 2019-2022 <a href="https://flowbite.com/" class="hover:underline" target="_blank">Flowbite.com</a>.
             All rights reserved.
@@ -122,6 +122,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
 </body>
 
 </html>

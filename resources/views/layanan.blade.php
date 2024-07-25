@@ -1,9 +1,23 @@
 <x-layout>
-    <x-slot:title>{{$title}}</x-slot:title>
-    <section class="bg-green-800 pt-9 drop-shadow-xl"><div class="text-center  mb-2  leading-8  text-2xl sm:text-3xl md:text-4xl lg:text-5xl ">
-        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">Layanan Kami</h2>
-        <p class="text-white sm:text-xl pb-9">Selamat datang di Layanan Kami, di mana kami menyediakan beragam pilihan layanan untuk memenuhi kebutuhan Anda..</p>
-    </div></section>
+
+    <x-slot:title>{{ $title }}</x-slot:title>
+    <section class="flex flex-col space-y-5">
+
+        {{-- Utama --}}
+        
+        <div class=" teras px-36 bg-green-800">
+        <div class="font-light text-white sm:text-lg max-w-3xl mx-auto text-center">
+            
+    <h2 class="text-4xl tracking-tight font-extrabold text-white mt-20">CV. MAKMUR KREASI BERKAH UTAMA</h2>
+    <p class="mb-4">Kami perusahaan yang bergerak di bidang konsultan lingkungan hidup. Perusahaan kami telah melakukan kerja sama dengan berbagai perusahaan baik badan usaha milik negara, daerah dan swasta.</p>
+</div>
+
+
+
+            </div>
+            
+        </div>
+        
     <section class="">  
         <div class=" px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6  ">
         

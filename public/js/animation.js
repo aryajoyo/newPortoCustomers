@@ -21,4 +21,45 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('scroll', checkVisibility);
   checkVisibility(); // Initial check on page load
 });
+function handleScroll() {
+  var containers = document.querySelectorAll('.container');
+  var screenPosition = window.innerHeight / 1.3; // Sesuaikan dengan posisi layar yang diinginkan
+
+  containers.forEach(function(container) {
+    var containerPosition = container.getBoundingClientRect().top;
+
+    if (containerPosition < screenPosition) {
+      container.classList.add('animated');
+    }
+  });
+}
+
+window.addEventListener('scroll', handleScroll);
+
+// Panggil fungsi handleScroll untuk memeriksa elemen saat halaman dimuat
+handleScroll();
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Initial setup to ensure dots are visible and more content is hidden
+  var dots = document.querySelector('.dots');
+  var moreText = document.querySelector('.more');
+  dots.style.display = 'inline';
+  moreText.style.display = 'none';
+});
+
+function toggleReadMore(btn) {
+  var dots = btn.previousElementSibling.querySelector('.dots');
+  var moreText = btn.previousElementSibling.querySelector('.more');
+
+  // Toggle visibility
+  if (dots.style.display === 'inline') {
+      dots.style.display = 'none';
+      moreText.style.display = 'inline';
+      btn.textContent = 'Read less';
+  } else {
+      dots.style.display = 'inline';
+      moreText.style.display = 'none';
+      btn.textContent = 'Read more';
+  }
+}
 

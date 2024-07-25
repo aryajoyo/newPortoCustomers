@@ -4,81 +4,69 @@
     <section class="flex flex-col space-y-5">
 
         {{-- Utama --}}
-        <div class=" px-36 bg-green-800 gap-8 items-center pt-0 mx-auto lg:grid lg:grid-cols-2 lg:py-2  ">
-            <div class="font-light text-white sm:text-lg ">
-                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white ">CV. MAKMUR KREASI
-                    BERKAH UTAMA</h2>
-                <p class="mb-4">CV Makmur Kreasi Berkah Utama adalah
-                    perusahaan yang bergerak di bidang konsultan
-                    lingkungan hidup. Perusahaan kami telah
-                    melakukan kerja sama dengan berbagai
-                    perusahaan baik badan usaha milik negara,
-                    daerah dan swasta.</p>
+        
+        <div class=" teras px-36 bg-green-800  ">
+        <div class="font-light text-white sm:text-lg max-w-3xl mx-auto text-center">
+            
+    <h2 class="text-4xl tracking-tight font-extrabold text-white mt-20">CV. MAKMUR KREASI BERKAH UTAMA</h2>
+    <p class="mb-4">Kami perusahaan yang bergerak di bidang konsultan lingkungan hidup. Perusahaan kami telah melakukan kerja sama dengan berbagai perusahaan baik badan usaha milik negara, daerah dan swasta.</p>
+</div>
+
+
 
             </div>
-            <div class="grid grid-cols-2 gap-4 mt-8 id">
-                <img class="w-full rounded-lg"
-                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
-                    alt="office content 1">
-                <img class="mt-4 w-full lg:mt-10 rounded-lg"
-                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
-                    alt="office content 2">
-            </div>
+            
         </div>
         {{--  --}}
 
         <hr>
 
         {{-- VIsi --}}
-        <div class=" px-36 ">
-            <div class="text-center pb-4 pt-4 px-4">
-                <h2 class="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+        <div class="px-4 sm:px-8 md:px-36">
+            <div class="text-center pb-4 pt-4 px-4 delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0"
+                data-taos-offset="300">
+                <h2 class="font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl">
                     VISI dan MISI
                 </h2>
 
-                <div class="flex flex-wrap items-center mt-20 text-left ">
+                <div class="flex flex-wrap items-center mt-10 text-left">
                     <div class="w-full md:w-3/5 lg:w-1/2 px-4">
-                        <img src="https://picsum.photos/400/240" alt="gem"
-                            class="outline-block  shadow-lg border border-merino-400  bg-green-800 px-8 py-8 ">
+                        <div class="bg-green-800 px-16 py-8 sm:px-32 sm:py-16 flex justify-center items-center">
+                            <img src="img/visi.png" alt="gem" class="w-16 h-16 sm:w-32 sm:h-32">
+                        </div>
                     </div>
-                    <div class="w-full md:w-2/5 lg:w-1/2 px-4 text-center md:text-left lg:pl-12">
-                        <h3 class="font-bold mt-8 text-xl md:mt-0 sm:text-2xl">
-                            VISI
-                        </h3>
-                        <p class="sm:text-lg mt-6">
-                            Menjadi konsultan lingkungan yang profesional dan
-                            memiliki integritas dalam memberikan pelayanan
-                            kepada pelanggan dengan mengedepankan
-                            metode ilmiah, praktis dan tepat guna.
 
+                    <div class="w-full md:w-2/5 lg:w-1/2 px-4 text-center md:text-left lg:pl-12">
+                        <h2 class="font-bold mt-4 text-lg sm:mt-0 sm:text-xl">
+                            VISI
+                        </h2>
+                        <p class="text-base sm:text-lg mt-4 sm:mt-6">
+                            Menjadi konsultan lingkungan yang profesional dan memiliki integritas dalam memberikan
+                            pelayanan kepada pelanggan dengan mengedepankan metode ilmiah, praktis dan tepat guna.
                         </p>
                     </div>
                 </div>
 
-                <div class="flex flex-wrap items-center mt-20 text-left ">
+                <div class="flex flex-wrap items-center mt-10 text-left">
                     <div class="w-full md:w-3/5 lg:w-1/2 px-4">
-                        <img src="https://picsum.photos/400/240" alt="project members"
-                            class="inline-block rounded shadow-lg border border-merino-400  bg-green-800 px-8 py-8 ">
+                        <div class="bg-green-800 px-16 py-8 sm:px-32 sm:py-16 flex justify-center items-center">
+                            <img src="img/misi.png" alt="gem" class="w-16 h-16 sm:w-32 sm:h-32">
+                        </div>
                     </div>
                     <div class="w-full md:w-2/5 lg:w-1/2 px-4 md:order-first text-center md:text-left lg:pr-12">
-                        <h3 class="font-bold mt-8 text-xl md:mt-0 sm:text-2xl">
+                        <h2 class="font-bold mt-4 text-lg sm:mt-0 sm:text-xl">
                             MISI
-                        </h3>
-                        <p class="sm:text-lg mt-6">
-                            Memberikan pelayanan terbaik dengan
-                            menyediakan tim yang profesional dan kompeten
-                            untuk dapat memberikan solusi yang tepat, inovatif
-                            dan praktis menyesuaikan dengan wawasan terkini
-                            sehingga dapat memberikan nilai positif bagi
-                            pelanggan.
-
+                        </h2>
+                        <p class="text-base sm:text-lg mt-4 sm:mt-6">
+                            Memberikan pelayanan terbaik dengan menyediakan tim yang profesional dan kompeten untuk
+                            dapat memberikan solusi yang tepat, inovatif dan praktis menyesuaikan dengan wawasan terkini
+                            sehingga dapat memberikan nilai positif bagi pelanggan.
                         </p>
                     </div>
                 </div>
-
-
             </div>
         </div>
+
         {{--  --}}
         <hr>
 
@@ -114,7 +102,7 @@
         <hr class="">
 
         {{-- Client --}}
-        <div class="">
+        <div class="delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0" data-taos-offset="300">
             <h2 class="text-center  mb-2  leading-8 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl">Our Clients
             </h2>
             <p class="text-center text-lg font-extralight leading-8 pb-8">We are trusted by the world’s most innovative
@@ -163,110 +151,263 @@
         <hr class="pt-8">
 
         {{-- Nilai Usung --}}
-        <div class="">
-            <h2 class="text-center  mb-2  leading-8 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl ">Nilai Yang
-                Kami Usung</h2>
-            <div class=" flex justify-center items-center py-16">
-                <div class="flex space-x-32">
+        <div class="delay-[300ms] duration-[600ms] taos:scale-[0.6] taos:opacity-0" data-taos-offset="400">
+            <h2 class="text-center mb-2 leading-8 font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl">Nilai Yang
+                Kami
+                Usung</h2>
+            <div class="flex justify-center items-center py-8 sm:py-16">
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-8 md:space-x-16 lg:space-x-32">
                     <div class="bg-green-800 flex justify-center rounded-2xl items-center h-16 w-48">
-                        <h2 class="text-white text-center text-xl">INOVATIF</h2>
+                        <h2 class="text-white text-center text-lg sm:text-xl">INOVATIF</h2>
                     </div>
                     <div class="bg-green-800 flex justify-center rounded-2xl items-center h-16 w-48">
-                        <h2 class="text-white text-center text-xl">TEPAT GUNA</h2>
+                        <h2 class="text-white text-center text-lg sm:text-xl">TEPAT GUNA</h2>
                     </div>
                     <div class="bg-green-800 flex justify-center rounded-2xl items-center h-16 w-48">
-                        <h2 class="text-white text-center text-xl">BERKELANJUTAN</h2>
+                        <h2 class="text-white text-center text-lg sm:text-xl">BERKELANJUTAN</h2>
                     </div>
                 </div>
             </div>
-
         </div>
+
         {{--  --}}
 
         <hr>
 
         {{-- Layanan --}}
-        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-            <div class="text-center  mb-2  leading-8  text-2xl sm:text-3xl md:text-4xl lg:text-5xl ">
-                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-black">Layanan Kami</h2>
-                <p class="text-black sm:text-xl dark:text-black">Selamat datang di Layanan Kami, di mana kami
-                    menyediakan beragam pilihan layanan untuk memenuhi kebutuhan Anda..</p>
+        <div>
+            <div class="bg-green-800 py-8">
+                <div class="text-center   leading-8  text-2xl sm:text-3xl md:text-4xl lg:text-5xl  ">
+                    <h2
+                        class="text-center mb-2 leading-8 font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl text-white">
+                        Layanan Kami
+                    </h2>
+                    <p class="text-white text-center text-lg font-extralight leading-8 pb-1">Selamat datang di Layanan
+                        Kami, di mana kami
+                        menyediakan beragam pilihan layanan untuk memenuhi kebutuhan Anda..</p>
+                </div>
             </div>
-            <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+            <div class="py-1 px-4 mx-auto max-w-screen-xl ">
 
-                <div>
-                    <div
-                        class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
+                <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
 
+                    <div>
+                        <div
+                            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
+
+                        </div>
+                        <h3 class="mb-2 text-xl font-bold text-green-800">Konsultasi</h3>
+                        <p class="text-black dark:text-black">Konsultasi terkait Pengelolaan Lingkungan.</p>
                     </div>
-                    <h3 class="mb-2 text-xl font-bold text-green-800">Konsultasi</h3>
-                    <p class="text-black dark:text-black">Konsultasi terkait Pengelolaan Lingkungan.</p>
-                </div>
 
-                <div>
-                    <div
-                        class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
+                    <div>
+                        <div
+                            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
 
+                        </div>
+                        <h3 class="mb-2 text-xl font-bold text-green-800">Pelatihan</h3>
+                        <p class="text-black dark:text-black">Pelatihan Sertifikasi Profesi Lingkungan Hidup</p>
                     </div>
-                    <h3 class="mb-2 text-xl font-bold text-green-800">Pelatihan</h3>
-                    <p class="text-black dark:text-black">Pelatihan Sertifikasi Profesi Lingkungan Hidup</p>
-                </div>
 
-                <div>
-                    <div
-                        class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
+                    <div>
+                        <div
+                            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
 
+                        </div>
+                        <h3 class="mb-2 text-xl font-bold text-green-800">Pengurusan Izin</h3>
+                        <p class="text-black dark:text-black">Pengurusan Izin Perusahaan ( TDG, IUI, SIUP IMB, MOU
+                            Limbah B3, SKRK, PBG, dll )
+                            .</p>
                     </div>
-                    <h3 class="mb-2 text-xl font-bold text-green-800">Pengurusan Izin</h3>
-                    <p class="text-black dark:text-black">Pengurusan Izin Perusahaan ( TDG, IUI, SIUP IMB, MOU
-                        Limbah B3, SKRK, PBG, dll )
-                        .</p>
-                </div>
 
-                <div>
-                    <div
-                        class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
+                    <div>
+                        <div
+                            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
 
+                        </div>
+                        <h3 class="mb-2 text-xl font-bold text-green-800">Pengurusan</h3>
+                        <p class="text-black dark:text-black">Pengurusan SLO Air Limbah, Emisi, Listrik, Genset dan
+                            Penangkal Petir</p>
                     </div>
-                    <h3 class="mb-2 text-xl font-bold text-green-800">Pengurusan</h3>
-                    <p class="text-black dark:text-black">Pengurusan SLO Air Limbah, Emisi, Listrik, Genset dan
-                        Penangkal Petir</p>
-                </div>
 
-                <div>
-                    <div
-                        class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
+                    <div>
+                        <div
+                            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
 
+                        </div>
+                        <h3 class="mb-2 text-xl font-bold text-green-800">Pengujian</h3>
+                        <p class="text-black dark:text-black">Jasa Pengujian Air Limbah dan Emisi</p>
                     </div>
-                    <h3 class="mb-2 text-xl font-bold text-green-800">Pengujian</h3>
-                    <p class="text-black dark:text-black">Jasa Pengujian Air Limbah dan Emisi</p>
-                </div>
 
-                <div>
-                    <div
-                        class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
+                    <div>
+                        <div
+                            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
 
+                        </div>
+                        <h3 class="mb-2 text-xl font-bold text-green-800">Dokumen</h3>
+                        <p class="text-black dark:text-black">Pembuatan Dokumen UKL - UPL</p>
                     </div>
-                    <h3 class="mb-2 text-xl font-bold text-green-800">Dokumen</h3>
-                    <p class="text-black dark:text-black">Pembuatan Dokumen UKL - UPL</p>
+
+
+
+
+
+
                 </div>
-
-
-
-
-
+                <div class="text-center px-8 py-8">
+                    <p class=" underline text-cyan-500 hover:text-cyan-700 text-sm "> <a href="/layanan">Read
+                            more.</a>
+                    </p>
+                </div>
 
             </div>
-            <div class="text-center px-8 py-8">
-                <p class=" underline text-cyan-500 hover:text-cyan-700 text-xl "> <a href="/layanan">Read more.</a>
-                </p>
+        </div>
+
+        {{--  --}}
+<hr>
+
+{{-- Image --}}
+        <div>
+            <div class=" mx-auto px-5 pb-11 lg:px-32 lg:pt-0">
+                <h2
+                    class="text-center  mb-2 leading-8 font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl text-green-800 py-8">
+                    Libary</h2>
+                <div class="-m-1 flex flex-wrap md:-m-2">
+                    <div class="flex w-1/2 flex-wrap">
+                        <div class="w-1/2 p-1 md:p-2">
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp" />
+                        </div>
+                        <div class="w-1/2 p-1 md:p-2">
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp" />
+                        </div>
+                        <div class="w-full p-1 md:p-2">
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" />
+                        </div>
+                    </div>
+                    <div class="flex w-1/2 flex-wrap">
+                        <div class="w-full p-1 md:p-2">
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp" />
+                        </div>
+                        <div class="w-1/2 p-1 md:p-2">
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp" />
+                        </div>
+                        <div class="w-1/2 p-1 md:p-2">
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(77).webp" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        {{-- faq --}}
+        <div class="bg-green-800">
+            <div class="containerr flex flex-col justify-center p-4 mx-auto md:p-8">
+                <h2 class="mb-12 text-4xl font-bold leadi text-center sm:text-5xl text-white">Frequently Asked
+                    Questions</h2>
+                <div class="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-white text-white">
+                    <details>
+                        <summary class="py-2 outline-none cursor-pointer focus:underline">How can I place an order?
+                        </summary>
+                        <div class="px-4 pb-4">
+                            <p>You can easily place an order on our website by browsing our product catalog, selecting
+                                the
+                                items you want, and adding them to your cart. Then, proceed to checkout, where you can
+                                provide your shipping and payment information to complete the order.</p>
+                        </div>
+                    </details>
+                    <details>
+                        <summary class="py-2 outline-none cursor-pointer focus:underline">What payment methods do you
+                            accept?</summary>
+                        <div class="px-4 pb-4">
+                            <p>We accept various payment methods, including credit cards, debit cards, net banking, and
+                                mobile wallet payments. You can choose the payment option that is most convenient for
+                                you
+                                during the checkout process.</p>
+                        </div>
+                    </details>
+                    <details>
+                        <summary class="py-2 outline-none cursor-pointer focus:underline">How long does shipping take?
+                        </summary>
+                        <div class="px-4 pb-4">
+                            <p>Shipping times may vary depending on your location and the shipping method chosen.
+                                Typically,
+                                orders are processed within 1-2 business days, and delivery can take 3-7 business days
+                                within India. You will receive a tracking notification once your order is shipped.</p>
+                        </div>
+                    </details>
+                    <details>
+                        <summary class="py-2 outline-none cursor-pointer focus:underline">Can I return a product if I'm
+                            not
+                            satisfied?</summary>
+                        <div class="px-4 pb-4">
+                            <p>Yes, we have a hassle-free return policy. If you are not satisfied with your purchase,
+                                you
+                                can initiate a return within 30 days of receiving the product. Please contact our
+                                customer
+                                support at <a href="" class="underline">example@gmail.com</a> for assistance.
+                            </p>
+                        </div>
+                    </details>
+                    <details>
+                        <summary class="py-2 outline-none cursor-pointer focus:underline">Do you offer international
+                            shipping?</summary>
+                        <div class="px-4 pb-4">
+                            <p>Currently, we only provide shipping services within India. However, we may consider
+                                expanding
+                                our shipping options to international locations in the future. Please stay updated with
+                                our
+                                website for any changes in shipping destinations.</p>
+                        </div>
+                    </details>
+                    <details>
+                        <summary class="py-2 outline-none cursor-pointer focus:underline">What is your customer support
+                            contact?</summary>
+                        <div class="px-4 pb-4">
+                            <p>If you have any questions, concerns, or need assistance, you can reach our customer
+                                support
+                                team at 9911083755 during our business hours, Monday to Saturday from 10 am to 6 pm. You
+                                can
+                                also contact us via email at <a href=""
+                                    class="underline">example@gmail.com</a>.
+                            </p>
+                        </div>
+                    </details>
+                    <details>
+                        <summary class="py-2 outline-none cursor-pointer focus:underline">What are your terms and
+                            conditions?</summary>
+                        <div class="px-4 pb-4">
+                            <p>You can find our detailed terms and conditions by visiting our
+                                <a href="" class="underline">Terms of Service</a>
+                                page on our website. It includes information about our policies, user guidelines, and
+                                more.
+                            </p>
+                        </div>
+                    </details>
+                </div>
+                <div class="text-center px-0 py-8">
+                    <p class=" underline text-cyan-500 hover:text-cyan-700 text-sm "> <a href="/faq">Read
+                            more.</a>
+                    </p>
+                </div>
+
             </div>
 
         </div>
+
+
         {{--  --}}
-<hr>
+
+
+        <hr>
         {{-- contac an loc --}}
-        <div class="container my-12 mx-auto px-2 md:px-4">
+        <div class="containerr my-12 mx-auto px-2 md:px-4">
 
             <section class="mb-32">
 
@@ -283,36 +424,30 @@
                     <form class="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6">
 
                         <div class="mb-3 w-full">
-                            <label class="block font-medium mb-[2px] text-teal-700" htmlFor="exampleInput90">
+                            <label class="block font-medium mb-[2px] text-green-800" htmlFor="exampleInput90">
                                 Name
                             </label>
                             <input type="text" class="px-2 py-2 border w-full outline-none rounded-md"
                                 id="exampleInput90" placeholder="Name" />
                         </div>
-
-                        <div class="mb-3 w-full">
-                            <label class="block font-medium mb-[2px] text-teal-700" htmlFor="exampleInput90">
-                                Email
-                            </label>
-                            <input type="email" class="px-2 py-2 border w-full outline-none rounded-md"
-                                id="exampleInput90" placeholder="Enter your email address" />
+                        <div class="w-1/2 p-1 md:p-2">
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp" />
                         </div>
-
-                        <div class="mb-3 w-full">
-                            <label class="block font-medium mb-[2px] text-teal-700" htmlFor="exampleInput90">
-                                Message
-                            </label>
-                            <textarea class="px-2 py-2 border rounded-[5px] w-full outline-none" name="" id=""></textarea>
+                        <div class="w-1/2 p-1 md:p-2">
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(77).webp" />
                         </div>
 
                         <button type="button"
-                            class="mb-6 inline-block w-full rounded bg-teal-400 px-6 py-2.5 font-medium uppercase leading-normal text-white hover:shadow-md hover:bg-teal-500">
+                            class="mb-6 inline-block w-full rounded bg-green-800 px-6 py-2.5 font-medium uppercase leading-normal text-white hover:shadow-md hover:bg-green-500">
                             Send
                         </button>
 
                     </form>
-
-                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
+                    </form>
+                    
+                        <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
                         <div class="flex flex-wrap">
                             <div class="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-6">
                                 <div class="flex items-start">
@@ -415,10 +550,34 @@
                         </div>
                     </div>
 
+
+        {{--  --}}
+
+
+        <hr>
+        {{-- contac an loc --}}
+        <div class="container my-12 mx-auto px-2 md:px-4">
+            <div class="py-36 ">
+                <div class="text-6xl font-bold my-8">
+                    <h1>Untuk Lebih lanjut</h1>
+                    <h1>Hubungin Kami!</h1>
                 </div>
-            </section>
+
+
+                <a class="mt-8 inline-flex items-center justify-center rounded-xl bg-green-600 py-3 px-16 font-dm text-2xl font-bold text-white shadow-xl shadow-green-400/75 transition-transform duration-200 ease-in-out hover:scale-[1.02]"
+                href="/contact">
+                CONTACT
+            </a>
+            </div>
+
         </div>
 
+        {{--  --}}
+
+
+
+
+        {{--  --}}
     </section>
 
 </x-layout>
